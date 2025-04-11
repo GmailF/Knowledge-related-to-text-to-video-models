@@ -16,8 +16,8 @@ U-Net网络：**扩散模型中使用的骨干网络**， 是一种对称的Enco
 在Encoder和Decoder两个模块之间，使用skip-connection作为桥梁，用于特征融合，将浅层的位置信息与深层的语义信息进行concat操作。图中用灰色箭头表示skip-connection，其中“copy”就是concat通道拼接操作，而“crop”则通过裁剪使得两个特征图尺寸一致。
 
 # U-Net网络在Diffusion中的作用
-<figure style="text-align: center; margin: 0 auto;">
-  <img src="作用.png" alt="U型架构" style="display: block; margin: 0 auto; max-width: 80%;">
+<figure>
+  <img src="作用.png" alt="U型架构" style="max-width:80%;">
   <figcaption>图2 Diffusion流程</figcaption>
 </figure>
 
