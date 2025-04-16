@@ -166,3 +166,4 @@ if __name__ == '__main__':
     output = unet(input_data)
     print(output.shape)
     # torch.Size([1, 2, 388, 388])
+
